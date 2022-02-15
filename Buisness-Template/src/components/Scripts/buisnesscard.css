@@ -1,0 +1,10 @@
+.buisnesscard {
+    display: flex;
+    width: 550px;
+    height: 868px;
+    flex-direction: column;
+    align-items: center;
+    background: #23252C;
+    justify-content: center;
+    
+}
