@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: #d4a6ed;
+}
+
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+    flex-direction: column;
+}
