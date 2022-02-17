@@ -1,14 +1,30 @@
-body{
+body {
     height: 100%;
     width: 100%;
     background: #d4a6ed;
 }
 
-
-.mainbody{
+.mainbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 46px;
     flex-direction: column;
 }
+
+.cards {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* margin-left: 37px; */
+    gap: 18px;
+    padding-left: 37px;
+    padding-right: 20px;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
